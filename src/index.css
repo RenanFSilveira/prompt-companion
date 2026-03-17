@@ -179,6 +179,15 @@
   }
 }
 
+.btn-cta {
+  box-shadow: var(--shadow-btn);
+  animation: pulseAccent 12s ease-in-out infinite;
+}
+.btn-cta:hover {
+  box-shadow: var(--shadow-btn-hover);
+  animation: none;
+}
+
 /* Scrollbar hide for testimonials */
 .scrollbar-hide::-webkit-scrollbar { display: none; }
 .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }

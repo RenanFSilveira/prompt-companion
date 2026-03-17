@@ -3,7 +3,7 @@ import CTAButton from "./CTAButton";
 
 const HeroSection = () => (
   <section
-    className="relative min-h-screen w-full flex items-center"
+    className="relative min-h-screen w-full flex items-center md:pb-24"
     style={{ paddingTop: 120 }}
   >
     {/* Background */}

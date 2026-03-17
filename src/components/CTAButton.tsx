@@ -8,12 +8,7 @@ const CTAButton = ({ className = "" }: { className?: string }) => (
     href={WHATSAPP_LINK}
     target="_blank"
     rel="noopener noreferrer"
-    className={`inline-flex items-center gap-2.5 bg-primary font-display text-base font-bold uppercase tracking-widest text-primary-foreground rounded-[var(--radius-btn)] border-2 border-primary px-10 py-[18px] transition-all duration-200 hover:bg-accent-light hover:border-accent-light hover:-translate-y-0.5 active:translate-y-0 animate-[pulseAccent_12s_ease-in-out_infinite] hover:animate-none ${className}`}
-    style={{
-      boxShadow: "var(--shadow-btn)",
-    }}
-    onMouseEnter={(e) => { (e.currentTarget.style.boxShadow) = "var(--shadow-btn-hover)"; }}
-    onMouseLeave={(e) => { (e.currentTarget.style.boxShadow) = "var(--shadow-btn)"; }}
+    className={`btn-cta inline-flex items-center gap-2.5 bg-primary font-display text-base font-bold uppercase tracking-widest text-primary-foreground rounded-[var(--radius-btn)] border-2 border-primary px-10 py-[18px] transition-all duration-200 hover:bg-accent-light hover:border-accent-light hover:-translate-y-0.5 active:translate-y-0 ${className}`}
   >
     <WhatsAppIcon />
     Agendar Aula Experimental Gratuita
