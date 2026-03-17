@@ -2,95 +2,80 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
-
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* === RENZO GRACIE BARRA DESIGN SYSTEM === */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    /* Backgrounds */
+    --background: 216 40% 5%;         /* #080d14 */
+    --foreground: 0 0% 100%;          /* #ffffff */
+    --bg-secondary: 214 33% 8%;      /* #0c1520 */
+    --bg-card: 211 37% 12%;          /* #0f1d2e */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    /* Text */
+    --color-text-secondary: 213 15% 61%; /* #8a9bb0 */
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Accent — Azul institucional */
+    --primary: 214 84% 33%;           /* #0D4A9B */
+    --primary-foreground: 0 0% 100%;
+    --accent-light: 216 78% 44%;      /* #1a63c8 */
+    --accent-hover: 214 84% 27%;     /* #0a3d82 */
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
+    /* UI tokens */
+    --card: 211 37% 12%;
+    --card-foreground: 0 0% 100%;
+    --popover: 211 37% 12%;
+    --popover-foreground: 0 0% 100%;
+    --secondary: 214 33% 8%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 214 33% 8%;
+    --muted-foreground: 213 15% 61%;
+    --accent: 214 84% 33%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 214 84% 33% / 0.2;
+    --border-subtle: 0 0% 100% / 0.06;
+    --input: 214 33% 8%;
+    --ring: 214 84% 33%;
     --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 98%;
+    /* Overlay */
+    --overlay-hero: rgba(6, 12, 22, 0.78);
+    --overlay-card: rgba(8, 13, 20, 0.60);
 
-    --sidebar-foreground: 240 5.3% 26.1%;
+    /* Shadows */
+    --shadow-card: 0 20px 40px rgba(0, 0, 0, 0.5);
+    --shadow-card-hover: 0 28px 56px rgba(13, 74, 155, 0.25);
+    --shadow-btn: 0 8px 24px rgba(13, 74, 155, 0.4);
+    --shadow-btn-hover: 0 12px 32px rgba(13, 74, 155, 0.6);
 
-    --sidebar-primary: 240 5.9% 10%;
+    /* Spacing */
+    --section-py: clamp(80px, 10vw, 140px);
+    --section-px: clamp(24px, 6vw, 80px);
+    --container-max: 1280px;
 
-    --sidebar-primary-foreground: 0 0% 98%;
+    /* Fonts */
+    --font-display: 'Barlow Condensed', sans-serif;
+    --font-body: 'Barlow', sans-serif;
 
-    --sidebar-accent: 240 4.8% 95.9%;
+    /* Radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 16px;
+    --radius-btn: 4px;
+    --radius-card: 8px;
+    --radius-pill: 999px;
 
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
-  }
-
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
+    /* Sidebar (unused but needed for shadcn) */
+    --sidebar-background: 216 40% 5%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 214 84% 33%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-accent: 214 33% 8%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 214 84% 33%;
+    --sidebar-ring: 214 84% 33%;
   }
 }
 
@@ -99,7 +84,101 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
-    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    line-height: 1.05;
+  }
+
+  h1 {
+    font-size: clamp(52px, 8vw, 96px);
+    font-weight: 900;
+    letter-spacing: -0.02em;
+  }
+
+  h2 {
+    font-size: clamp(36px, 5vw, 64px);
+    font-weight: 800;
+    line-height: 1.1;
+  }
+
+  h3 {
+    font-size: clamp(22px, 3vw, 32px);
+    font-weight: 700;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: clamp(40px, 10vw, 64px);
+    }
   }
 }
+
+/* Animations */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-eyebrow {
+  animation: slideUp 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.1s both;
+}
+.hero-headline {
+  animation: slideUp 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.3s both;
+}
+.hero-subheadline {
+  animation: slideUp 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.5s both;
+}
+.hero-cta {
+  animation: slideUp 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.7s both;
+}
+
+/* Scroll reveal */
+.animate-hidden {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.animate-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger delays */
+.stagger-1 { transition-delay: 0s; }
+.stagger-2 { transition-delay: 0.1s; }
+.stagger-3 { transition-delay: 0.15s; }
+.stagger-4 { transition-delay: 0.2s; }
+
+/* Pulse CTA */
+@keyframes pulseAccent {
+  0%, 100% {
+    box-shadow: 0 8px 24px rgba(13, 74, 155, 0.4);
+  }
+  50% {
+    box-shadow: 0 8px 36px rgba(26, 99, 200, 0.7);
+  }
+}
+
+/* Scrollbar hide for testimonials */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
