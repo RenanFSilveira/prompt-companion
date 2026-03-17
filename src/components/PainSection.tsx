@@ -1,4 +1,5 @@
 import painImg from "@/assets/pain-screen.jpg";
+import painImgMobile from "@/assets/pain-screen-mobile.png";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const PainSection = () => {
@@ -28,9 +29,14 @@ const PainSection = () => {
 
         <div className="animate-hidden stagger-2">
           <img
+            src={painImgMobile}
+            alt="Criança exposta a telas"
+            className="w-full rounded-[var(--radius-md)] object-cover aspect-square md:hidden"
+          />
+          <img
             src={painImg}
             alt="Criança exposta a telas"
-            className="w-full rounded-[var(--radius-md)] object-cover aspect-square"
+            className="w-full rounded-[var(--radius-md)] object-cover aspect-square hidden md:block"
           />
         </div>
       </div>
