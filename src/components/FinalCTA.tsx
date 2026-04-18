@@ -1,8 +1,10 @@
 import CTAButton from "./CTAButton";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
+import { useLanguage } from "@/lib/i18n";
 
 const FinalCTA = () => {
   const ref = useScrollReveal();
+  const { t } = useLanguage();
 
   return (
     <section className="bg-bg-secondary" style={{ padding: "var(--section-py) 0" }}>
@@ -13,10 +15,10 @@ const FinalCTA = () => {
       >
         <div className="animate-hidden max-w-3xl mx-auto">
           <h2 className="text-foreground mb-6">
-            A primeira aula é gratuita. O próximo passo é simples.
+            {t("finalCta.title")}
           </h2>
           <p className="font-body text-text-secondary text-lg leading-relaxed mb-10">
-            Você não está matriculando seu filho em uma academia de luta. Você está dando a ele uma ferramenta para a vida: disciplina para estudar, respeito para conviver, resiliência para não desistir quando for difícil.
+            {t("finalCta.text")}
           </p>
           <CTAButton />
         </div>
