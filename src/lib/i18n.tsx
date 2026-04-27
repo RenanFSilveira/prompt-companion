@@ -18,7 +18,7 @@ const translations: Record<Language, Dict> = {
     "hero.sub": "O Projeto Pequenos Samurais usa o Jiu-Jitsu para formar crianças disciplinadas, resilientes e confiantes — em um ambiente familiar e de alto nível na Barra da Tijuca.",
     "hero.alt": "Crianças treinando Jiu-Jitsu",
 
-    "cred.years": "6 anos de história",
+    "cred.years": "6 anos de história na Barra da Tijuca",
     "cred.lineage": "Filiação direta com Renzo Gracie Academy em NY",
 
     "pain.eyebrow": "O problema que você já conhece",
@@ -99,7 +99,7 @@ const translations: Record<Language, Dict> = {
     "hero.sub": "The Little Samurai Project uses Jiu-Jitsu to raise disciplined, resilient and confident kids — in a family-like, high-level environment in Barra da Tijuca.",
     "hero.alt": "Kids training Jiu-Jitsu",
 
-    "cred.years": "6 years of history",
+    "cred.years": "6 years of history in Barra da Tijuca",
     "cred.lineage": "Direct affiliation with Renzo Gracie Academy in NY",
 
     "pain.eyebrow": "The problem you already know",
