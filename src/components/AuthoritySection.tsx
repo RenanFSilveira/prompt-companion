@@ -1,4 +1,5 @@
 import coachImg from "@/assets/01-imagem-professor.jpg";
+import lineageImg from "@/assets/Mito & Renzo.jpg";
 import CTAButton from "./CTAButton";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { useLanguage } from "@/lib/i18n";
@@ -18,6 +19,11 @@ const AuthoritySection = () => {
             {t("authority.lineageEyebrow")}
           </span>
           <h2 className="text-foreground mb-6">{t("authority.lineageTitle")}</h2>
+          <img
+            src={lineageImg}
+            alt={t("authority.lineageImageAlt")}
+            className="w-full max-w-2xl mx-auto rounded-[var(--radius-md)] object-cover mb-8"
+          />
           <p className="font-body text-text-secondary text-lg leading-relaxed max-w-3xl mx-auto">
             {t("authority.lineageText")}
           </p>

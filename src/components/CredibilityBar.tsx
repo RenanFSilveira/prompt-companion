@@ -1,4 +1,4 @@
-import { Award, Users, Shield } from "lucide-react";
+import { Award, Shield } from "lucide-react";
 import { useLanguage } from "@/lib/i18n";
 
 const CredibilityBar = () => {
@@ -6,7 +6,6 @@ const CredibilityBar = () => {
 
   const items = [
     { icon: Award, text: t("cred.years") },
-    { icon: Users, text: t("cred.students") },
     { icon: Shield, text: t("cred.lineage") },
   ];
 

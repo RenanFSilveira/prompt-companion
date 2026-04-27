@@ -18,9 +18,8 @@ const translations: Record<Language, Dict> = {
     "hero.sub": "O Projeto Pequenos Samurais usa o Jiu-Jitsu para formar crianças disciplinadas, resilientes e confiantes — em um ambiente familiar e de alto nível na Barra da Tijuca.",
     "hero.alt": "Crianças treinando Jiu-Jitsu",
 
-    "cred.years": "10 anos de história",
-    "cred.students": "+1000 alunos formados",
-    "cred.lineage": "Filiação direta Renzo Gracie",
+    "cred.years": "6 anos de história",
+    "cred.lineage": "Filiação direta com Renzo Gracie Academy em NY",
 
     "pain.eyebrow": "O problema que você já conhece",
     "pain.title": "Horas de tela. Zero disciplina. Nenhuma mudança real.",
@@ -42,6 +41,7 @@ const translations: Record<Language, Dict> = {
 
     "authority.lineageEyebrow": "A Linhagem",
     "authority.lineageTitle": "Uma das maiores linhagens do Jiu-Jitsu mundial",
+    "authority.lineageImageAlt": "Mito Pontual e Renzo Gracie",
     "authority.lineageText": "Renzo Gracie é um dos nomes mais respeitados da história das artes marciais. Nossa unidade é filiada diretamente a ele — não é franquia, não é licença. É uma extensão legítima de uma das maiores linhagens do Jiu-Jitsu mundial.",
     "authority.coachEyebrow": "Head Coach",
     "authority.coachName": "Mito Pontual",
@@ -73,13 +73,13 @@ const translations: Record<Language, Dict> = {
     "faq.q3": "Como funciona a aula experimental?",
     "faq.a3": "É gratuita, sem compromisso e sem pressão. A criança participa de uma aula real com os outros alunos. Você assiste e sente o ambiente. Depois, você decide com calma.",
     "faq.q4": "Qual a faixa etária do projeto?",
-    "faq.a4": "O Projeto Pequenos Samurais atende crianças a partir de [X] anos. Entre em contato para saber mais sobre as turmas disponíveis.",
+    "faq.a4": "O Projeto Pequenos Samurais atende crianças a partir de 4 anos. Entre em contato para saber mais sobre as turmas disponíveis.",
 
     "finalCta.title": "A primeira aula é gratuita. O próximo passo é simples.",
     "finalCta.text": "Você não está matriculando seu filho em uma academia de luta. Você está dando a ele uma ferramenta para a vida: disciplina para estudar, respeito para conviver, resiliência para não desistir quando for difícil.",
 
     "footer.name": "Renzo Gracie Barra",
-    "footer.address": "Cobertura da Av. Olegário Maciel, 101 — Jardim Oceânico, Barra da Tijuca, Rio de Janeiro, RJ",
+    "footer.address": "Av. Olegário Maciel 101, cobertura\nJardim Oceânico - Barra da Tijuca\nRio de Janeiro - RJ",
     "footer.rights": "Todos os direitos reservados.",
 
     "lang.switchTo.en": "Switch to English",
@@ -99,9 +99,8 @@ const translations: Record<Language, Dict> = {
     "hero.sub": "The Little Samurai Project uses Jiu-Jitsu to raise disciplined, resilient and confident kids — in a family-like, high-level environment in Barra da Tijuca.",
     "hero.alt": "Kids training Jiu-Jitsu",
 
-    "cred.years": "[X] years of history",
-    "cred.students": "+[X] students trained",
-    "cred.lineage": "Direct Renzo Gracie affiliation",
+    "cred.years": "6 years of history",
+    "cred.lineage": "Direct affiliation with Renzo Gracie Academy in NY",
 
     "pain.eyebrow": "The problem you already know",
     "pain.title": "Hours of screen time. Zero discipline. No real change.",
@@ -123,6 +122,7 @@ const translations: Record<Language, Dict> = {
 
     "authority.lineageEyebrow": "The Lineage",
     "authority.lineageTitle": "One of the greatest lineages in world Jiu-Jitsu",
+    "authority.lineageImageAlt": "Mito Pontual and Renzo Gracie",
     "authority.lineageText": "Renzo Gracie is one of the most respected names in martial arts history. Our school is directly affiliated with him — not a franchise, not a license. It's a legitimate extension of one of the greatest lineages in world Jiu-Jitsu.",
     "authority.coachEyebrow": "Head Coach",
     "authority.coachName": "Mito Pontual",
@@ -154,13 +154,13 @@ const translations: Record<Language, Dict> = {
     "faq.q3": "How does the trial class work?",
     "faq.a3": "It's free, no commitment and no pressure. The child participates in a real class with the other students. You watch and get a feel for the environment. Then you decide calmly.",
     "faq.q4": "What's the age range for the project?",
-    "faq.a4": "The Little Samurai Project welcomes children from [X] years old. Get in touch to learn more about the available classes.",
+    "faq.a4": "The Little Samurai Project welcomes children from 4 years old. Get in touch to learn more about the available classes.",
 
     "finalCta.title": "The first class is free. The next step is simple.",
     "finalCta.text": "You're not enrolling your child in a fight gym. You're giving them a tool for life: discipline to study, respect to live together, resilience to not give up when things get hard.",
 
     "footer.name": "Renzo Gracie Barra",
-    "footer.address": "Penthouse at Av. Olegário Maciel, 101 — Jardim Oceânico, Barra da Tijuca, Rio de Janeiro, RJ",
+    "footer.address": "Av. Olegário Maciel 101, penthouse\nJardim Oceânico - Barra da Tijuca\nRio de Janeiro - RJ",
     "footer.rights": "All rights reserved.",
 
     "lang.switchTo.en": "Switch to English",

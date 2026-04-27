@@ -15,7 +15,7 @@ const Footer = () => {
         <p className="font-display text-lg font-bold uppercase tracking-wider text-foreground mb-2">
           {t("footer.name")}
         </p>
-        <p className="font-body text-sm text-text-secondary mb-1">
+        <p className="font-body text-sm text-text-secondary mb-1 whitespace-pre-line">
           {t("footer.address")}
         </p>
         <p className="font-body text-xs text-text-secondary/60 mt-4">
