@@ -6,7 +6,7 @@ import { useLanguage } from "@/lib/i18n";
 import logoImg from "@/assets/Logo Renzo Gracie Team.png";
 
 const buildWhatsappLink = (message: string) =>
-  `https://wa.me/55XXXXXXXXXXX?text=${encodeURIComponent(message)}`;
+  `https://wa.me/5521981877700?text=${encodeURIComponent(message)}`;
 
 const Navbar = () => {
   const { t } = useLanguage();

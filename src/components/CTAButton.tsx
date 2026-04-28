@@ -3,7 +3,7 @@ import { useLanguage } from "@/lib/i18n";
 
 const CTAButton = ({ className = "" }: { className?: string }) => {
   const { t } = useLanguage();
-  const link = `https://wa.me/55XXXXXXXXXXX?text=${encodeURIComponent(t("wa.message"))}`;
+  const link = `https://wa.me/5521981877700?text=${encodeURIComponent(t("wa.message"))}`;
 
   return (
     <a

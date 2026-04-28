@@ -18,6 +18,14 @@ const Footer = () => {
         <p className="font-body text-sm text-text-secondary mb-1 whitespace-pre-line">
           {t("footer.address")}
         </p>
+        <a
+          href={`https://wa.me/5521981877700?text=${encodeURIComponent(t("wa.message"))}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-body text-sm text-text-secondary mt-2 hover:text-foreground transition-colors"
+        >
+          {t("footer.phoneLabel")}: {t("footer.phone")}
+        </a>
         <p className="font-body text-xs text-text-secondary/60 mt-4">
           © {new Date().getFullYear()} {t("footer.name")}. {t("footer.rights")}
         </p>

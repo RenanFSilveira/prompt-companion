@@ -80,6 +80,8 @@ const translations: Record<Language, Dict> = {
 
     "footer.name": "Renzo Gracie Barra",
     "footer.address": "Av. Olegário Maciel 101, cobertura\nJardim Oceânico - Barra da Tijuca\nRio de Janeiro - RJ",
+    "footer.phone": "(21) 98187-7700",
+    "footer.phoneLabel": "WhatsApp",
     "footer.rights": "Todos os direitos reservados.",
 
     "lang.switchTo.en": "Switch to English",
@@ -161,6 +163,8 @@ const translations: Record<Language, Dict> = {
 
     "footer.name": "Renzo Gracie Barra",
     "footer.address": "Av. Olegário Maciel 101, penthouse\nJardim Oceânico - Barra da Tijuca\nRio de Janeiro - RJ",
+    "footer.phone": "(21) 98187-7700",
+    "footer.phoneLabel": "WhatsApp",
     "footer.rights": "All rights reserved.",
 
     "lang.switchTo.en": "Switch to English",
