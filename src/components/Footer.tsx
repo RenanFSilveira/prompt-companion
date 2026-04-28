@@ -1,4 +1,5 @@
 import { useLanguage } from "@/lib/i18n";
+import { trackWhatsappLead } from "@/lib/gtm";
 import logoImg from "@/assets/Logo Renzo Gracie Team.png";
 
 const Footer = () => {
@@ -22,6 +23,7 @@ const Footer = () => {
           href={`https://wa.me/5521981877700?text=${encodeURIComponent(t("wa.message"))}`}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={trackWhatsappLead}
           className="font-body text-sm text-text-secondary mt-2 hover:text-foreground transition-colors"
         >
           {t("footer.phoneLabel")}: {t("footer.phone")}

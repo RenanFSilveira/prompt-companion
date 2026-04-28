@@ -3,6 +3,7 @@ import WhatsAppIcon from "./WhatsAppIcon";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { Menu, X } from "lucide-react";
 import { useLanguage } from "@/lib/i18n";
+import { trackWhatsappLead } from "@/lib/gtm";
 import logoImg from "@/assets/Logo Renzo Gracie Team.png";
 
 const buildWhatsappLink = (message: string) =>
@@ -67,6 +68,7 @@ const Navbar = () => {
               href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={trackWhatsappLead}
               className="inline-flex items-center gap-2 bg-primary font-display text-sm font-bold uppercase tracking-wider text-primary-foreground px-6 py-3 rounded-[var(--radius-btn)] border-2 border-primary hover:bg-accent-light hover:border-accent-light transition-all duration-200"
             >
               <WhatsAppIcon size={16} />
@@ -105,6 +107,7 @@ const Navbar = () => {
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={trackWhatsappLead}
             className="inline-flex items-center gap-2 bg-primary font-display text-base font-bold uppercase tracking-wider text-primary-foreground px-8 py-4 rounded-[var(--radius-btn)] border-2 border-primary mt-4"
           >
             <WhatsAppIcon />
