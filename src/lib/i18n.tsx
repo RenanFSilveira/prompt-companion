@@ -86,7 +86,7 @@ const translations: Record<Language, Dict> = {
 
     "lang.switchTo.en": "Switch to English",
     "lang.switchTo.pt": "Mudar para Português",
-    "wa.message": "Olá! Vi o site da Renzo Gracie Barra e gostaria de agendar uma aula experimental gratuita de Jiu-Jitsu Kids.",
+    "wa.message": "Olá! Vi o site da Renzo Gracie Barra e gostaria de age﻿‌‌​‌‌​‌⁠‌​​​​​﻿ndar uma aula experimental gratuita de Jiu-Jitsu Kids.",
   },
   en: {
     "nav.programa": "Program",
